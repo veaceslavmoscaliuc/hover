@@ -1,0 +1,48 @@
+:root{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+}
+/*------------*/
+.breadcrumbs{
+    font-size:0; 
+    
+}
+.breadcrumbs li {
+    font-size: 1rem;
+    display: inline-block;
+    background-image: 
+        linear-gradient(#fff8, white),
+        url(chevron-right.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size:  1rem;
+    padding-right: 1.2rem;
+}
+.breadcrumbs li:last-child{
+    background-image: none;
+    padding-right: 0;
+}
+.breadcrumbs a{
+    color: #a6a6a6;
+
+}
+.breadcrumbs li:last-child a{
+    color: #3333ff;
+}
+a:hover {
+  background-color: rgb(219, 224, 231);
+}
+
+
+
+
